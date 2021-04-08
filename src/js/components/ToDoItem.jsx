@@ -1,11 +1,11 @@
 import React from "react";
-import './ToDoItem.css';
+import "./ToDoItem.css";
 
 import { Checkbox } from "@material-ui/core";
 
 import { useDispatch } from "react-redux";
 
-import { setCheck } from "../reducers/todoSlice";
+import { setCheck } from "../slices/toDoSlice";
 
 const ToDoItem = ({ name, done, id }) => {
   const dispatch = useDispatch();
