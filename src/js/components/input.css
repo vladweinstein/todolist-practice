@@ -19,6 +19,7 @@ input:focus {
 }
 
 button {
+  margin-top: 10px;
   margin-right: 8px;
   background: rgb(214, 213, 213);
   border: none;
